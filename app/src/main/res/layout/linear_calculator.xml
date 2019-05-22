@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#fff"
     android:orientation="vertical"
-    android:weightSum="2"
     tools:context="myapp.com.calculator_ui.MainActivity">
 
     <EditText
@@ -48,7 +47,7 @@
                 android:background="#ddd"
                 android:minHeight="80dp"
                 android:text="Del"
-                android:textColor="#1e1d1d"
+                android:textColor="#ef0707"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -121,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#ccc"
+                android:background="#ddd"
                 android:minHeight="80dp"
                 android:text="*"
                 android:textColor="#181717"
@@ -173,7 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#ccc"
+                android:background="#ddd"
                 android:minHeight="80dp"
                 android:text="-"
                 android:textColor="#181717"
@@ -225,7 +224,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#ccc"
+                android:background="#ddd"
                 android:minHeight="80dp"
                 android:text="+"
                 android:textColor="#181717"
